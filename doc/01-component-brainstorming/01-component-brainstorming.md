@@ -1,12 +1,10 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Junchen Wu
+- **Dot Number**: 5837 (wu.5837)
+- **Due Date**: 2/4/2025, by 3:00 PM EST
 
 ## Assignment Overview
-
-<!-- TODO: read the assignment overview then delete this comment -->
 
 The overall goal of the portfolio project is to have you design and implement
 your own OSU component. There are no limits to what you choose to design and
@@ -29,8 +27,6 @@ implement.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
-
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
 opening the TODOs window from the sidebar. The icon looks like a tree and will
@@ -52,8 +48,6 @@ to the tree diagram (you may remove this one as well):
 
 ## Assignment Learning Objectives
 
-<!-- TODO: read the assignment learning objectives then delete this comment -->
-
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
 what we're hoping you will learn through this particular aspect of the portfolio
@@ -67,12 +61,10 @@ project. Specifically, students should be able to:
 
 ## Assignment Rubric: 10 Points
 
-<!-- TODO: read the assignment rubric then delete this comment -->
-
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
 are meant to provide ongoing feedback in the learning process. Therefore,
-the rubric is designed to assess the learning objectives *directly* in a way
+the rubric is designed to assess the learning objectives _directly_ in a way
 that is low stakes—meaning you shouldn't have to worry about the grade. Just
 do good work.
 
@@ -106,23 +98,17 @@ Below is further rationale/explanation for the rubric items above:
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+I have a couple of hobbies! When I get the time, I enjoy meeting up with friends and playing tabletop games and board games. I used to participate in DnD campaigns, although after college started I haven't had the time to join another campaign (although I have played Baldur's Gate). I enjoy watching sci-fi movies; some of my favorites are Tenet and The Martian. I also enjoy going on walks.
+
+In terms of academics, I hope to pursue graduate studies in computer science or data analysis. I see myself working as a backend software developer or an AI researcher. I hope to apply my programming skills from courses to projects with positive impacts. My goals related to programming are to design products that are user-friendly, flexible tools. I also want my code to be well-documented and reliable for different use cases.
 
 ## Assignment
-
-<!-- TODO: read the assignment section then delete this comment -->
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
 that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
-
-<!-- TODO: browse the list of possible projects then delete this comment -->
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -131,8 +117,6 @@ etc. Make of this whatever seems interesting to you, and keep in mind that
 you're just brainstorming right now. You do not have to commit to anything.
 
 ### Example Component
-
-<!-- TODO: review this example component then delete this comment -->
 
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
@@ -157,7 +141,7 @@ format, we can be more confident that your designs will be possible.
     - `NaturalNumber divide(NaturalNumber n)`: divides `this` by `n`, returning
       the remainder
     - ...
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
       - Yes, basically all OSU components have to be mutable as long as they
@@ -169,7 +153,7 @@ format, we can be more confident that your designs will be possible.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
       - Yes. NaturalNumber is base 10, and we track that in a constant called
-          `RADIX`.
+        `RADIX`.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
       - Yes. The kernel methods `multiplyBy10` and `divideBy10` can be used to
@@ -200,68 +184,97 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
-  - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
-  - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
-  - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
-    answer for each of the following questions):
-    - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
-      Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Would this component need any enums or constants (e.g.,
-      `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Can you implement your secondary methods using your kernel methods?
-      Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+- Component Design #1: DnD Character Tracker Component
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
-  - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
-  - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
-  - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
-    answer for each of the following questions):
-    - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
-      Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Would this component need any enums or constants (e.g.,
-      `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Can you implement your secondary methods using your kernel methods?
-      Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+  - **Description**: This would be a container that stores and tracks the relevant statistics, items, and information pertaining to a single character in a Dungeons and Dragons (DnD) campaign. The container would store relevant progression information including level, experience points, and any other important information for the character.
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
-  - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+
+    - addHealthPoints(int amt): increases total health points of a character
+    - removeHealthPoints(int amt): decreases total health points of a character
+    - increaseAbility(String abilityName, int amt): increases the ability score of a character; this can occur when characters gain levels
+
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
+
+    - addItem(String name, int amt): adds items to a character's inventory
+    - removeItem(String name, int amt): deletes items from a character's inventory, or "consumes" the item when characters use them
+    - addGold(int amt): increases a character's gold count
+    - removeGold(int amt): decreases a character's gold count
+    - levelUpChar(): makes appropriate changes to a character's stats when they level up, such as increasing their total health points.
+    - attackRoll(String attackName): simulates an attack roll that a character makes during a round of combat. attackName parameter is needed because characters can have multiple attack options available
+
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
     answer for each of the following questions):
-    - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+
+    - Would this component be mutable? Answer and explain: This component will likely be mutable because as a campaign progresses, characters will change, level up, and become stronger. They would also gain new items and additional abilities.
+
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
-      Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Answer and explain: Yes, I believe using internal classes would make it easier for this component to store character information. For example, I could program a map to track the amount of each item belonging to a character.
+
     - Would this component need any enums or constants (e.g.,
-      `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      `Program.Instruction`)? Answer and explain: One possible case for using constants is to track the statistics for different types of dice. We could use a constant to hold 20 for a d20, and 12 for a d12.
+
     - Can you implement your secondary methods using your kernel methods?
-      Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Answer, explain, and give at least one example: Yes, some of the secondary methods can be implemented using kernel methods. For instance, the levelUpChar() method could be implemented using addHealthPoints and increaseAbility methods. As characters level up, they gain health points and can gain certain feats that improve certain ability scores. However, other secondary methods don't require the kernel methods. For example, addGold and removeGold methods just need arithmetic and don't require other methods to implement.
+
+- Component Design #2: Tower Defense Unit Tracker
+
+  - **Description**: This component would store the relevant statistics of a "tower" unit in tower defense games, such as Balloons Tower Defense 5 or other similar games in the genre. This component would store attack damage, time to attack, range, and other relevant information. It would handle changing the stats when a tower levels up, and keeping track of any special abilities.
+
+  - **Kernel Methods**:
+
+    - increaseAttack(int amt): improves the damage for the tower's "attack" move.
+    - increaseRange(int amt): improves the range stat, which this component stores as a radius. When calculating whether an enemy is "in range", the component will calculate the range as a circle area around the tower.
+    - increaseTimeToAttack: increases the time taken to launch an attack, measured in seconds.
+    - decreaseTimeToAttack: decreases time taken to attack.
+
+  - **Secondary Methods**:
+
+    - levelUpTower(): changes the relevant stats when a tower is "upgraded."
+    - calculateRangeArea(): calculates the total range, measured as the area of a circle with the tower unit at its center. This is useful when towers need to determine whether they can launch attacks at enemy units.
+    - sellTower(): "sells" the tower and resets the variable to all default values.
+
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
+    answer for each of the following questions):
+
+    - Would this component be mutable? Answer and explain: This component would be mutable because the damage, range, and seconds per attack for a tower would change as the tower is "upgraded."
+
+    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
+      Answer and explain: I likely wouldn't need to use internal classes for this component, because the information that needs to be stored isn't too complicated. Keeping track of stats like damage or range wouldn't require using other containers.
+
+    - Would this component need any enums or constants (e.g.,
+      `Program.Instruction`)? Answer and explain: I don't think so, because at this time I don't know of any consistent numbers that could be tracked using constant variables.
+
+    - Can you implement your secondary methods using your kernel methods?
+      Answer, explain, and give at least one example: Yes, most of the secondary methods can be implemented using kernel methods. For example, calculateRangeArea method can be implemented using the increaseRange method. When a tower is "upgraded", the component first calls increaseRange to update that amount; then it immediately calculates the range area of the tower.
+
+- Component Design #3: 3D Coordinate Plane Model Component
+
+  - **Description**: This component is a bit different from the other two ideas. It creates a 3D plane and tracks the coordinates of points graphed on that plane. It can also accept two points as parameters to create a vector between the two points.
+
+  - **Kernel Methods**:
+
+    - graphNewPoint(double x, double y, double z): graphs a new point on the 3D plane. User specifies the coordinates.
+    - createUnitVector(String axisName): creates a unit vector on the X, Y, or Z axis as specified by the user.
+
+  - **Secondary Methods**:
+
+    - createVector();
+    - magnitude(double x, double y, double z): returns the length of a straight line from the origin to a point at the specified coordinates.
+
+  - **Additional Considerations** (_note_: "I don't know" is an acceptable
+    answer for each of the following questions):
+
+    - Would this component be mutable? Answer and explain: I feel that this component should not be mutable. Once a user graphs a point on the 3D plane, they shouldn't need to modify the coordinates unless they want to delete that point.
+
+    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
+      Answer and explain: At this point, I'm a little unsure. I think using other containers would be effective for storing the coordinate of points, however I am unsure which container would be the best. I believe that Sequence and Map would be the best candidates.
+
+    - Would this component need any enums or constants (e.g.,
+      `Program.Instruction`)? Answer and explain: Yes, I think constants would be appropriate to track the coordinates of the origin, and to store the unit vectors since they always have a length of one.
+
+    - Can you implement your secondary methods using your kernel methods?
+      Answer, explain, and give at least one example: Yes, some of my secondary methods can be implemented using kernel methods. I'm not 100% set on what parameters should be passed to the createVector method, however the graphNewPoint method can be used to implement the createVector method.
 
 ## Post-Assignment
 
